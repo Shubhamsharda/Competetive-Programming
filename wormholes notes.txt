@@ -1,0 +1,35 @@
+V = from house to exam center
+W = back
+
+known things:
+1.contest timings
+2.wormhole timings
+
+(15,21), (5,10), and (7,25)
+
+vtime = 4,14,25,2 
+
+wtime = 13,21
+
+sort vtime and wtime and contest timings(by diif)
+
+vtime = 2,4,14,25             2,4,14,25  13,21
+
+wtime = 13,21
+
+contests = [(5,10),(15,21),(7,25)]
+---
+strategies:
+1. find combinations of wormhole times nd check if there is a contest in 
+	between them
+
+2. start finding smallest gap and then find is there a contest in between them
+
+ (4,13) -9
+ 
+ mini prob: finding lowest interwal?
+ 
+ broot approach:
+  find all pairs of wormholes and check if there is a contest 
+  and then select the lowest interwal.
+	
